@@ -1,4 +1,4 @@
-//очки за каждое задание
+//Баллы за каждое задание
 let introductionScore = 50;
 let gitScore = 100;
 let jsScore = 150;
@@ -9,6 +9,11 @@ let averageScore = (introductionScore + gitScore + jsScore) / 3;
 //Студент
 let firstName = "Victor";
 let lastName = "Marasinskiy";
+
+//1 буква в имени
+let first_letter = firstName.slice(0,1);
+console.log(first_letter + "." + lastName);
+
 
 console.log("Студент: " + firstName + " " + lastName);
 console.log("Баллы по модулю Introduction: " + introductionScore);
